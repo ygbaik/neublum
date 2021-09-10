@@ -9,6 +9,17 @@ body{
     background-color: #fefaf5;
 }
 
+nav{
+    position: sticky;
+    top:0;
+
+    display: flex;
+    justify-content: center;
+    padding:2rem 0;
+    
+    background-color: #fefaf5;
+}
+
 h1{
     position:absolute;
     opacity: 0;
@@ -85,15 +96,6 @@ h3{
     /* filter:drop-shadow(.5rem 1rem 1rem #BBB2A6); */
 }
 
-nav{
-    position: sticky;
-    top:0;
-
-    display: flex;
-    justify-content: center;
-    padding:2rem 0;
-}
-
 footer{
     display: flex;
     justify-content: center;
@@ -128,6 +130,14 @@ footer p{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    h2{
+        width:(10ch, 1vw, 75ch);
+    }
+
+    h3{
+        width:clamp(25ch, 70vw, 75ch);
     }
 }
 
